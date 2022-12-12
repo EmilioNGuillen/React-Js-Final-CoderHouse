@@ -5,6 +5,7 @@ import { Loading } from "../Loding/Loading.jsx";
 import { NotFoundPage } from "../NotFoundPage/NotFoundPage.jsx";
 import "../Loding/Loading.css";
 import "../ItemDetailContainer/ItemDetailsContainer.css";
+import { getProducto } from "../../services/firebase";
 
 export const ItemDetailsContainer = () => {
   const [producto, setProducto] = useState({});

@@ -5,6 +5,7 @@ import "../ThankYou/ThankYou.css";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { purchaseDetailContext } from "../../context/purchaseDetailContext";
+import { getOrderById } from "../../services/firebase";
 
 export const ThankYou = () => {
   const orderId = useParams();

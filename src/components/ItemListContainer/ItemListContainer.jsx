@@ -6,6 +6,8 @@ import { NotFoundPage } from "../NotFoundPage/NotFoundPage";
 import "../ItemListContainer/ItemListContainer.css";
 import "../Loding/Loading.css";
 import "../NotFoundPage/NotFoundPage.css";
+import { getProductos, getProductosByCategory } from "../../services/firebase";
+
 
 export const ItemListContainer = (props) => {
   const [productList, setProductList] = useState([]);
